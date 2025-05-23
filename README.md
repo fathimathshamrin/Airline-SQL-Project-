@@ -1,30 +1,35 @@
-📊 Project Description:
-Airline Flight Performance & Customer Insights using SQL
-This SQL-based data analytics project simulates real-world airline operations to extract actionable insights relevant to Emirates Airlines. Using a relational database consisting of flights, bookings, passengers, and airline data, this project demonstrates core SQL skills—such as joins, aggregations, window functions, and filtering—to support business decisions in the aviation industry.
+# ✈️ Airline Flight Performance & Customer Insights using SQL
 
-✅ Key Objectives:
-Analyze on-time performance of flights by airline.
+This SQL-based data analytics project simulates real-world airline operations to extract actionable insights relevant to Emirates Airlines. Using a relational database consisting of flights, bookings, passengers, and airline data, the project demonstrates core SQL skills—such as joins, aggregations, window functions, and filtering—to support business decisions in the aviation industry.
 
-Evaluate average ticket prices across seat classes.
+---
 
-Understand passenger demographics by nationality.
+## ✅ Key Objectives
 
-Identify top-performing routes based on booking volume.
+- Analyze on-time performance of flights by airline  
+- Evaluate average ticket prices across seat classes  
+- Understand passenger demographics by nationality  
+- Identify top-performing routes based on booking volume  
+- Generate revenue-related insights using booking data  
 
-Generate revenue-related insights using booking data.
+---
 
-🛠️ Tools & Techniques:
-SQL (MySQL/PostgreSQL compatible syntax)
+## 🛠️ Tools & Techniques
 
-Simulated airline data
+- SQL (MySQL/PostgreSQL compatible syntax)  
+- Simulated airline data  
+- Query optimization & data modeling  
 
-Query optimization & data modeling
+---
 
-🧠 Business Impact:
-Helps identify operational bottlenecks and high-performing routes.
+## 🧠 Business Impact
 
-Supports revenue optimization by analyzing pricing trends.
+- Identifies operational bottlenecks and high-performing routes  
+- Supports revenue optimization by analyzing pricing trends  
+- Informs customer segmentation and market expansion strategies  
 
-Informs customer segmentation and market expansion strategies.
+---
 
-This project showcases my analytical thinking and practical SQL skills aligned with aviation industry KPIs
+## 📌 Summary
+
+This project showcases my analytical thinking and practical SQL skills aligned with aviation industry KPIs. It reflects my ability to transform raw data into strategic insights—an essential capability for a **Junior Data Analyst role at Emirates**.
