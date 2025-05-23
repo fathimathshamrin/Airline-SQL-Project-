@@ -1,2 +1,30 @@
-# Airline-SQL-Project-
-This project demonstrates the use of SQL to analyze simulated airline operational data with a focus on insights relevant to Emirates Airlines. The goal is to uncover patterns and trends that support strategic decision-making in areas like flight performance, customer demographics, route planning, and revenue management.
+📊 Project Description:
+Airline Flight Performance & Customer Insights using SQL
+This SQL-based data analytics project simulates real-world airline operations to extract actionable insights relevant to Emirates Airlines. Using a relational database consisting of flights, bookings, passengers, and airline data, this project demonstrates core SQL skills—such as joins, aggregations, window functions, and filtering—to support business decisions in the aviation industry.
+
+✅ Key Objectives:
+Analyze on-time performance of flights by airline.
+
+Evaluate average ticket prices across seat classes.
+
+Understand passenger demographics by nationality.
+
+Identify top-performing routes based on booking volume.
+
+Generate revenue-related insights using booking data.
+
+🛠️ Tools & Techniques:
+SQL (MySQL/PostgreSQL compatible syntax)
+
+Simulated airline data
+
+Query optimization & data modeling
+
+🧠 Business Impact:
+Helps identify operational bottlenecks and high-performing routes.
+
+Supports revenue optimization by analyzing pricing trends.
+
+Informs customer segmentation and market expansion strategies.
+
+This project showcases my analytical thinking and practical SQL skills aligned with aviation industry KPIs
