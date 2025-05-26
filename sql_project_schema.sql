@@ -50,3 +50,6 @@ CREATE TABLE Bookings (
     FOREIGN KEY (PassengerID) REFERENCES Passengers(PassengerID),
     FOREIGN KEY (FlightID) REFERENCES Flights(FlightID)
 );
+
+ALTER TABLE Flights
+ADD COLUMN ActualArrivalTime DATETIME;
