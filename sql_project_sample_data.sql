@@ -26,7 +26,39 @@ INSERT INTO Airlines VALUES
 (24, 'Alaska Airlines', 'USA'),
 (25, 'Saudi Airlines', 'Saudi Arabia');
 
-Airline-SQL-Project-_sql_project_sample_data.sql at main · fathimathshamrin_Airline-SQL-Project-
+-- Airports Table
+INSERT INTO Airports (AirportID, AirportName, City, Country, IATA_Code) VALUES
+(1, 'Dubai International Airport', 'Dubai', 'UAE', 'DXB'),
+(2, 'Heathrow Airport', 'London', 'UK', 'LHR'),
+(3, 'Charles de Gaulle Airport', 'Paris', 'France', 'CDG'),
+(4, 'Frankfurt Airport', 'Frankfurt', 'Germany', 'FRA'),
+(5, 'Changi Airport', 'Singapore', 'Singapore', 'SIN'),
+(6, 'Haneda Airport', 'Tokyo', 'Japan', 'HND'),
+(7, 'Los Angeles International Airport', 'Los Angeles', 'USA', 'LAX'),
+(8, 'John F. Kennedy International Airport', 'New York', 'USA', 'JFK'),
+(9, 'Toronto Pearson International Airport', 'Toronto', 'Canada', 'YYZ'),
+(10, 'Sydney Kingsford Smith Airport', 'Sydney', 'Australia', 'SYD'),
+(11, 'Amsterdam Airport Schiphol', 'Amsterdam', 'Netherlands', 'AMS'),
+(12, 'Istanbul Airport', 'Istanbul', 'Turkey', 'IST'),
+(13, 'Zurich Airport', 'Zurich', 'Switzerland', 'ZRH'),
+(14, 'Vancouver International Airport', 'Vancouver', 'Canada', 'YVR'),
+(15, 'Hong Kong International Airport', 'Hong Kong', 'Hong Kong', 'HKG'),
+(16, 'San Francisco International Airport', 'San Francisco', 'USA', 'SFO'),
+(17, 'Dubai World Central', 'Dubai', 'UAE', 'DWC'),
+(18, 'Munich Airport', 'Munich', 'Germany', 'MUC'),
+(19, 'Seoul Incheon International Airport', 'Seoul', 'South Korea', 'ICN'),
+(20, 'Madrid-Barajas Airport', 'Madrid', 'Spain', 'MAD'),
+(21, 'Denver International Airport', 'Denver', 'USA', 'DEN'),
+(22, 'Manchester Airport', 'Manchester', 'UK', 'MAN'),
+(23, 'Kuala Lumpur International Airport', 'Kuala Lumpur', 'Malaysia', 'KUL'),
+(24, 'Rome Fiumicino Airport', 'Rome', 'Italy', 'FCO'),
+(25, 'Miami International Airport', 'Miami', 'USA', 'MIA'),
+(26, 'Brussels Airport', 'Brussels', 'Belgium', 'BRU'),
+(27, 'Bangkok Suvarnabhumi Airport', 'Bangkok', 'Thailand', 'BKK'),
+(28, 'Lisbon Airport', 'Lisbon', 'Portugal', 'LIS'),
+(29, 'Oslo Gardermoen Airport', 'Oslo', 'Norway', 'OSL'),
+(30, 'Stockholm Arlanda Airport', 'Stockholm', 'Sweden', 'ARN');
+
 
 -- Flights
 INSERT INTO Flights VALUES
