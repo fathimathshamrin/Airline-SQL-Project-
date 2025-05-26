@@ -53,3 +53,8 @@ CREATE TABLE Bookings (
 
 ALTER TABLE Flights
 ADD COLUMN ActualArrivalTime DATETIME;
+UPDATE Flights SET ActualArrivalTime = '2025-06-01 13:05:00' WHERE FlightID = 101;
+UPDATE Flights SET ActualArrivalTime = '2025-06-01 21:55:00' WHERE FlightID = 102;
+UPDATE Flights SET ActualArrivalTime = '2025-06-02 10:50:00' WHERE FlightID = 103;
+-- Add similar updates for other flights
+
