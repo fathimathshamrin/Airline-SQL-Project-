@@ -32,4 +32,4 @@ This SQL-based data analytics project simulates real-world airline operations to
 
 ## 📌 Summary
 
-This project showcases my analytical thinking and practical SQL skills aligned with aviation industry KPIs. It reflects my ability to transform raw data into strategic insights—an essential capability for a **Junior Data Analyst role at Emirates**.
+This project showcases my analytical thinking and practical SQL skills aligned with aviation industry KPIs. It reflects my ability to transform raw data into strategic insights.
