@@ -1,4 +1,3 @@
-
 -- Airlines Table
 CREATE TABLE Airlines (
     airline_id INT PRIMARY KEY,
