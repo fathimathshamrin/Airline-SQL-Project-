@@ -1,14 +1,21 @@
 
 -- Query 1: On-time Performance by Airline
 SELECT
-    airline_name,
-    COUNT(*) AS total_flights,
-    SUM(CASE WHEN status = 'On Time' THEN 1 ELSE 0 END) AS on_time_flights,
-    ROUND(100.0 * SUM(CASE WHEN status = 'On Time' THEN 1 ELSE 0 END) / COUNT(*), 2) AS on_time_percentage
-FROM Flights
-JOIN Airlines ON Flights.airline_id = Airlines.airline_id
-GROUP BY airline_name
-ORDER BY on_time_percentage DESC;
+    a.AirlineName,
+    COUNT(*) AS TotalFlights,
+    SUM(CASE 
+        WHEN TIMESTAMPDIFF(MINUTE, f.ArrivalTime, f.ActualArrivalTime) <= 15 THEN 1
+        ELSE 0
+    END) AS OnTimeFlights,
+    ROUND(SUM(CASE 
+        WHEN TIMESTAMPDIFF(MINUTE, f.ArrivalTime, f.ActualArrivalTime) <= 15 THEN 1
+        ELSE 0
+    END) * 100.0 / COUNT(*), 2) AS OnTimePercentage
+FROM Flights f
+JOIN Airlines a ON f.AirlineID = a.AirlineID
+WHERE f.ActualArrivalTime IS NOT NULL
+GROUP BY a.AirlineName
+ORDER BY OnTimePercentage DESC;
 
 -- Query 2: Average Ticket Price by Airline & Seat Class
 SELECT
