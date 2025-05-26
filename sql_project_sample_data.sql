@@ -26,38 +26,7 @@ INSERT INTO Airlines VALUES
 (24, 'Alaska Airlines', 'USA'),
 (25, 'Saudi Airlines', 'Saudi Arabia');
 
--- Airports
-INSERT INTO Airports VALUES
-('DXB', 'Dubai International Airport', 'Dubai', 'UAE'),
-('LHR', 'Heathrow Airport', 'London', 'UK'),
-('JFK', 'John F. Kennedy International Airport', 'New York', 'USA'),
-('DEL', 'Indira Gandhi International Airport', 'Delhi', 'India'),
-('CDG', 'Charles de Gaulle Airport', 'Paris', 'France'),
-('SYD', 'Sydney Airport', 'Sydney', 'Australia'),
-('SIN', 'Changi Airport', 'Singapore', 'Singapore'),
-('DOH', 'Hamad International', 'Doha', 'Qatar'),
-('FRA', 'Frankfurt Airport', 'Frankfurt', 'Germany'),
-('HND', 'Haneda Airport', 'Tokyo', 'Japan'),
-('ICN', 'Incheon Airport', 'Seoul', 'South Korea'),
-('AMS', 'Amsterdam Schiphol', 'Amsterdam', 'Netherlands'),
-('BOM', 'Chhatrapati Shivaji Airport', 'Mumbai', 'India'),
-('MEL', 'Melbourne Airport', 'Melbourne', 'Australia'),
-('CPT', 'Cape Town International', 'Cape Town', 'South Africa'),
-('LAX', 'Los Angeles International', 'Los Angeles', 'USA'),
-('YYZ', 'Toronto Pearson', 'Toronto', 'Canada'),
-('IST', 'Istanbul Airport', 'Istanbul', 'Turkey'),
-('BKK', 'Suvarnabhumi Airport', 'Bangkok', 'Thailand'),
-('ADD', 'Bole International Airport', 'Addis Ababa', 'Ethiopia'),
-('SFO', 'San Francisco Airport', 'San Francisco', 'USA'),
-('GRU', 'São Paulo Guarulhos', 'São Paulo', 'Brazil'),
-('MUC', 'Munich Airport', 'Munich', 'Germany'),
-('JNB', 'O.R. Tambo Airport', 'Johannesburg', 'South Africa'),
-('PEK', 'Beijing Capital', 'Beijing', 'China'),
-('SHA', 'Shanghai Hongqiao', 'Shanghai', 'China'),
-('DME', 'Domodedovo Airport', 'Moscow', 'Russia'),
-('EZE', 'Ministro Pistarini', 'Buenos Aires', 'Argentina'),
-('SVO', 'Sheremetyevo Airport', 'Moscow', 'Russia'),
-('MAN', 'Manchester Airport', 'Manchester', 'UK');
+Airline-SQL-Project-_sql_project_sample_data.sql at main · fathimathshamrin_Airline-SQL-Project-
 
 -- Flights
 INSERT INTO Flights VALUES
